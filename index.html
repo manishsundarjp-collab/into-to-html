@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello, World!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1>Details of Users</h1>
-      
-      <form>
-        <fieldset>
-          <legend>Personal Information</legend>
-          <label>First Name:</label>
-          <input type="text" id="fname" name="fname"><br></br>
-          <label>Last Name:</label>
-          <input type="text" id="lname" name="lname"><br></br>
-          <label>Gender:</label><br><br>
-          <input type="radio" name="subject" value="Male">Male<br></br>
-          <input type="radio" name="subject" value="Female">Female<br></br>
-          <input type="radio" name="subject" value="Other">Other<br></br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br></br>
-          <label for="email">Password:</label>
-          <input type="password" name="password"><br></br>
-          <label for="birthday">Birthday:</label>
-          <input type="date" id="birthday" name="birthday"><br></br>
-          <label for="email">Address:</label><br />
-          <textarea rows="5" cols="50" name="description">Enter description here...</textarea><br><br>
-          <label for="email">Image:</label><br><br>
-          <input type="file" name="fileupload" accept="image/*" /><br><br><br><br>
-          <center>
-            <input type="submit" name="submit" value="Submit" />
-            <input type="reset" name="reset" value="Reset" />
-          </center>
-        </fieldset>
-      </form>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Favourite Cartoon Character</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1 {
+      color: darkblue;
+      text-align: center;
+      font-size: 36px;
+    }
+
+    .fun-fact {
+      color: darkgreen;
+      font-weight: bold;
+    }
+
+    #special-message {
+      color: purple;
+      font-size: 18px;
+    }
+
+    h2, h3 {
+      color: maroon;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>My Favourite Sports Person</h1>
+  
+  <div>
+    <h2>Rohit Sharma</h2>
+    
+    <p id="character card">
+      Rohit Sharma is my favourite cricket star because of his batting style,aggresive skill
+      and leadership.
+    </p>
+    
+    <p style="color:darkblue; font size:20px;">
+      His quality leadership and his runs makes the team to the way of victory.
+    </p>
+    
+    <h3>Character Details</h3>
+    
+    <ul>
+      <li class="detail">Name:Rohit Sharma</li>
+      <li class="detail">Known for:Batting Skill and Leadership</li>
+      <li class="detail">Favourite skill:Pull shot</li>
+    </ul>
+    
+    <p class="fun-fact">
+      Fun Fact: He has scored 3 double centuries in ODIs.
+    </p>
+
+    <p id="special-message">
+      He said "Whether we win or lose,we have to SMILE".
+    </p>
+    
+  </div>
+</body>
 </html>
