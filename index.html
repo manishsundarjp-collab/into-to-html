@@ -1,90 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>Grid Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style type="text/css">
+  h1 {
+    color: green;
+  }
+  #a1, #a4 {
+    color: white;
+    background: olive;
+    font-size: 20px;
+  }
+  #a2, #a5 {
+    color: white;
+    background: maroon;
+    font-size: 20px;
+  }
+  #a3, #a6 {
+    color: white;
+    background: fuchsia;
+    font-size: 20px;
+  }
+</style>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adventure Park Challenge</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-</head>
-
+  </head>
 <body>
+  <div class="container-fluid">
+  <!-- class="container-fluid" provides full width page -->
+  <h1>Unequal Area Grids</h1>
+  <div class="row">
+    <div id="a1" class="col-sm-3">Adding 1-3 grids</div>
+    <div id="a2" class="col-sm-4">Adding 4-7 grids</div>
+    <div id="a3" class="col-sm-5">Adding 8-12 grids</div>
+  </div>
 
-  <h1>Welcome to Adventure Park Challenge!</h1>
-  <p>Get ready to explore rides, challenges, and safety missions while learning typography in HTML and Bootstrap.</p>
-
-  <hr>
-
-  <h2>Adventure Levels</h2>
-  <p class="display-1">Extreme Explorer</p>
-  <p class="display-2">Mountain Rider</p>
-  <p class="display-3">Trail Runner</p>
-  <p class="display-4">New Adventurer</p>
-
-  <hr>
-
-  <h2>Visitor Passes</h2>
-  <h3>Aarav <small>Pass: Extreme Explorer</small></h3>
-  <h3>Mia <small>Pass: Mountain Rider</small></h3>
-  <h3>Zara <small>Pass: Trail Runner</small></h3>
-
-  <hr>
-
-  <h2>Ride Dictionary</h2>
-  <dl>
-    <dt>Sky Coaster</dt>
-    <dd>A fast ride that takes visitors high above the park.</dd>
-
-    <dt>Treasure Trail</dt>
-    <dd>A mystery path where visitors solve clues to find treasure.</dd>
-
-    <dt>River Rush</dt>
-    <dd>A water ride that moves quickly through twists and turns.</dd>
-  </dl>
-
-  <hr>
-
-  <h2>Safety Mission</h2>
-  <p>Please report to <mark>Gate 3</mark> before the challenge begins.</p>
-  <p>The rescue drill will happen near <mark>River Zone</mark>.</p>
-
-  <hr>
-
-  <h2>Ride Commands</h2>
-  <p>Start the coaster: <code>ride.start("Sky Coaster")</code></p>
-  <p>Open the trail: <code>trail.open("Treasure Trail")</code></p>
-  <p>Stop the ride: <code>ride.stop("River Rush")</code></p>
-
-  <hr>
-
-  <h2>Park Short Forms</h2>
-  <p><abbr title="Adventure Park Safety Team">APST</abbr> checks every ride before opening.</p>
-  <p><abbr title="River Rescue Unit">RRU</abbr> helps visitors near water rides.</p>
-  <p><abbr title="Junior Explorer Club">JEC</abbr> is for young adventure lovers.</p>
-
-  <hr>
-
-
-  <h2>Daily Challenge Schedule</h2>
-  <pre>
-10:00 AM  -  Gate Entry
-11:00 AM  -  Sky Coaster
-12:00 PM  -  Treasure Trail
-02:00 PM  -  River Rush
-03:00 PM  -  Final Adventure Badge
-  </pre>
-
-  <hr>
-
-  <h2>Adventure Quote</h2>
-  <blockquote class="blockquote">
-    <p>"Adventure begins when you try something new."</p>
-    <footer class="blockquote-footer">Adventure Park Team</footer>
-  </blockquote>
+  <div class="row">
+    <div id="a4" class="col-sm-2">Adding 1-2 grids</div>
+    <div id="a5" class="col-sm-6">Adding 3-8 grids</div>
+    <div id="a6" class="col-sm-4">Adding 9-12 grids</div>
+  </div>
+</div>
 
 </body>
-
 </html>
 
+</html>
